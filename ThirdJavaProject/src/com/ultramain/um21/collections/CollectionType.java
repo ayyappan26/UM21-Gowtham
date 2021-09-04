@@ -1,5 +1,6 @@
 package com.ultramain.um21.collections;
 
+import java.util.HashSet;
 //import java.util.ArrayList;
 //import java.util.HashSet;
 //import java.util.LinkedHashSet;
@@ -13,9 +14,9 @@ public class CollectionType {
 
 public void addList(){
 	//ArrayList<Integer> numList = new ArrayList<>();
-	//Set<Integer> numList = new HashSet<>();
+	Set<Integer> numList = new HashSet<>();
 	//Set<Integer> numList = new LinkedHashSet();
-	Set<Integer> numList = new TreeSet<>();
+	//Set<Integer> numList = new TreeSet<>();
 	numList.add(10);
 	numList.add(30);
 	numList.add(30);
