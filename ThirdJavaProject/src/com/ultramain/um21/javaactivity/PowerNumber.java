@@ -1,19 +1,38 @@
 package com.ultramain.um21.javaactivity;
 
+import java.util.Scanner;
+
 public class PowerNumber {
 	public static void main(String[] args){
 		PowerNumber power = new PowerNumber();
-		power.checkNumber(8);
-		power.checkNumber(7);
-		power.checkNumber(4);
-		if(checkNumber(n)){
-			System.out.println("Number is power of two ");
-		}else{
-			System.out.println("Number is not power of two");
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter the number : ");
+		int number = scanner.nextInt();
+		
+		if(power.checkNumber(number))
+		{
+			System.out.println("The number " + number + " is power of Two ");
 		}
+		else
+		{
+			System.out.println("The number " + number + " is not power of Two ");
+		}
+		
+		scanner.close();
 	}
 
 public static boolean checkNumber(int n){
+	while(n != 1 ) 
+	{
+		if(n % 2 != 0)
+		{
+			return false;
+		}
+		n = n/ 2;
+	}
+	
+	return true;
 	
 	}
 }
