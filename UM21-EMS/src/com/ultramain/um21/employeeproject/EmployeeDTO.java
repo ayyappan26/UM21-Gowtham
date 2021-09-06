@@ -1,17 +1,16 @@
 package com.ultramain.um21.employeeproject;
 
+/**
+ * @author Admin This class contains employee details
+ *
+ */
 public class EmployeeDTO {
-
 	private int empId;
 	private String first_Name;
 	private String last_Name;
 	private float salary;
 	private int mobile;
 	private String dept;
-
-	
-
-	
 
 	public int getEmpId() {
 		return empId;
@@ -44,6 +43,7 @@ public class EmployeeDTO {
 	public void setSalary(float salary) {
 		this.salary = salary;
 	}
+
 	public int getMobile() {
 		return mobile;
 	}
@@ -51,6 +51,7 @@ public class EmployeeDTO {
 	public void setMobile(int mobile) {
 		this.mobile = mobile;
 	}
+
 	public String getDept() {
 		return dept;
 	}
