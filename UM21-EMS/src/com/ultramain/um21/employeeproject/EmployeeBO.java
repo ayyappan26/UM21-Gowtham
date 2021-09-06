@@ -58,9 +58,9 @@ public class EmployeeBO {
 		System.out.println("Enter Employee Id: ");
 		empDto.setEmpId(scan.nextInt());
 		System.out.println("Enter First Name : ");
-		empDto.setFirst_Name(scan.next());
+		empDto.setFirstName(scan.next());
 		System.out.println("Enter Last Name : ");
-		empDto.setLast_Name(scan.next());
+		empDto.setLastName(scan.next());
 		System.out.println("Enter Salary : ");
 		empDto.setSalary(scan.nextFloat());
 		System.out.println("Enter Mobile : ");

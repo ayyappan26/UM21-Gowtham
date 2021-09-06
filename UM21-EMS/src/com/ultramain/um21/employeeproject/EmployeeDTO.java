@@ -6,8 +6,8 @@ package com.ultramain.um21.employeeproject;
  */
 public class EmployeeDTO {
 	private int empId;
-	private String first_Name;
-	private String last_Name;
+	private String firstName;
+	private String lastName;
 	private float salary;
 	private int mobile;
 	private String dept;
@@ -20,20 +20,20 @@ public class EmployeeDTO {
 		this.empId = empId;
 	}
 
-	public String getFirst_Name() {
-		return first_Name;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setFirst_Name(String first_Name) {
-		this.first_Name = first_Name;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
-	public String getLast_Name() {
-		return last_Name;
+	public String getLastName() {
+		return lastName;
 	}
 
-	public void setLast_Name(String last_Name) {
-		this.last_Name = last_Name;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 	public float getSalary() {
